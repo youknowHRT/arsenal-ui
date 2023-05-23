@@ -3,7 +3,7 @@
 import { createApp } from "vue/dist/vue.esm-bundler.js";
 import ArsenalUI from '../src/entry'
 
-// import OoButton from './button'
+// import SButton from './button'
 import SFCButton from './SFCButton.vue'
 import JSXButton from './JSXButton'
 

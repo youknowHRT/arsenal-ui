@@ -14,19 +14,19 @@
     import ArsenalUI, {
         SFCButton,
         JSXButton,
-        OoButton,
+        SButton,
     } from "../../dist/arsenal-ui.mjs";
 
     createApp({
         template: `
-<OoButton/>
+<SButton/>
 <JSXButton/>
 <SFCButton/>
 `,
     })
         .component(SFCButton.name, SFCButton)
         .component(JSXButton.name, JSXButton)
-        .component(OoButton.name, OoButton)
+        .component(SButton.name, SButton)
         .mount("#app");
 </script>
 

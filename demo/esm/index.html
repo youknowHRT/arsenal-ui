@@ -11,11 +11,11 @@
 <div id="app"></div>
 <script type="module">
   import { createApp } from "vue/dist/vue.esm-bundler.js";
-  import ArsenalUI, { SFCButton, JSXButton, OoButton } from "../../dist/arsenal-ui.mjs";
+  import ArsenalUI, { SFCButton, JSXButton, SButton } from "../../dist/arsenal-ui.mjs";
 
   createApp({
       template: `
-    <OoButton/>
+    <SButton/>
     <JSXButton/>
     <SFCButton/>
     `}).use(ArsenalUI).mount('#app')

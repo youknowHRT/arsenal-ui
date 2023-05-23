@@ -1,14 +1,14 @@
 import { App } from 'vue'
-import OoButton from './button'
+import SButton from './button'
 import SFCButton from './SFCButton.vue'
 import JSXButton from './JSXButton'
 
 const allComponents = [
-  OoButton,
+  SButton,
   SFCButton,
   JSXButton
 ]
-export { OoButton, SFCButton, JSXButton}
+export { SButton, SFCButton, JSXButton}
 
 export default {
   install(app: App) {
