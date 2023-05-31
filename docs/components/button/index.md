@@ -1,5 +1,5 @@
 # OoButtonPage
-<oo-jsx-button>ss</oo-jsx-button>
+<oo-jsx-button>🍓</oo-jsx-button>
 <OoButton>🍊</OoButton>
 
 :::demo

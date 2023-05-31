@@ -5,11 +5,9 @@ export default defineComponent({
   // render(){
   //   return <button>jsx-button</button>
   // }
-  setup: (context)=>{
+  setup: (props,context)=>{
     return ()=> <button onClick={()=>console.log('111')}>
-      {/* { context.slots.default?.() } */}
-      {/* {context} */}
-      🍋
+      {context.slots.default?.()}
     </button>
   }
 })
