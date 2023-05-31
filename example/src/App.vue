@@ -1,6 +1,7 @@
 <template>
   <div class="sonOfApp">
     <oo-button>🏀</oo-button>
+    <oo-jsx-button>🌹</oo-jsx-button>
   </div>
 </template>
 
