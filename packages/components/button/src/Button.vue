@@ -7,11 +7,11 @@
   //  import { ref, reactive} from 'vue'
    
 </script>
-<script lang="ts">
+<!-- <script lang="ts">
 export default{
   name: "OoButton"
 }
-</script>
+</script> -->
 <style scoped lang='scss'>
  
 </style>
