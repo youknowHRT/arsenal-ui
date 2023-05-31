@@ -13,13 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@arsenal-ui/components": "workspace:^1.0.0",
-    "element-plus": "^2.3.5",
-    "vite-plugin-vue-setup-extend": "^0.4.0"
+    "@arsenal-ui/components": "workspace:^1.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vitejs/plugin-vue-jsx": "^3.0.1",
     "vitepress": "0.22.4",
     "vitepress-theme-demoblock": "1.4.2"
   }

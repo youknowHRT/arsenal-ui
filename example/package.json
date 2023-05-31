@@ -13,11 +13,5 @@
   "dependencies": {
     "@arsenal-ui/components": "workspace:^1.0.0",
     "sass": "^1.62.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vitejs/plugin-vue-jsx": "^3.0.1",
-    "pnpm": "^8.6.0",
-    "vite-plugin-vue-setup-extend": "^0.4.0"
   }
 }
