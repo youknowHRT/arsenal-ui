@@ -1,13 +1,13 @@
 # OoButtonPage
 <oo-jsx-button>ss</oo-jsx-button>
-<!-- <OoButton>🍊</OoButton> -->
+<OoButton>🍊</OoButton>
 <el-button>S</el-button>
 
-:::  MPV 按钮实现
+:::demo
 
 ```vue
 <template>
-  <oo-button>🍊</oo-button>
+  <OoButton>🍊</OoButton>
 </template>
 ```
 :::

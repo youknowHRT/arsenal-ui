@@ -6,7 +6,7 @@ export default defineComponent({
   //   return <button>jsx-button</button>
   // }
   setup: (context)=>{
-    return ()=> <button>
+    return ()=> <button onClick={()=>console.log('111')}>
       {/* { context.slots.default?.() } */}
       {/* {context} */}
       🍋

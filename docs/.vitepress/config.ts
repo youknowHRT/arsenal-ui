@@ -4,7 +4,7 @@ const sidebar = {
     { text: '快速开始', link: '/' },
     {
       text: '按钮',
-      items: [
+      children: [
         { text: 'Button 按钮', link: '/components/button/' },
       ]
     },

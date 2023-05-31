@@ -14,13 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "@arsenal-ui/components": "workspace:^1.0.0",
-    "@vitejs/plugin-vue": "^4.2.3",
     "element-plus": "^2.3.5",
-    "vite-plugin-vue-setup-extend": "^0.4.0",
-    "vitepress": "1.0.0-beta.1"
+    "vite-plugin-vue-setup-extend": "^0.4.0"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
-    "vitepress-theme-demoblock": "^2.0.2"
+    "vitepress": "0.22.4"
   }
 }
