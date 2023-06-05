@@ -1,5 +1,3 @@
-// import Theme from 'vitepress/theme'
-// import Theme from 'vitepress/dist/client/theme-default'
 import Theme from 'vitepress/theme'
 import ArsenalUI from '@arsenal-ui/components'
 import Demo from 'vitepress-theme-demoblock/components/Demo.vue'

@@ -5,7 +5,9 @@
   </div>
 </template>
 
-<script setup lang="ts" name="app"></script>
+<script setup lang="ts">
+defineOptions({name:'App'})
+</script>
 
 <style lang="scss">
 #app {

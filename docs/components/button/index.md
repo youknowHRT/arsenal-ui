@@ -1,11 +1,10 @@
 # OoButtonPage
-<oo-jsx-button>🍓</oo-jsx-button>
-<OoButton>🍊</OoButton>
 
 :::demo
 
 ```vue
 <template>
+  <oo-jsx-button>🍓</oo-jsx-button>
   <OoButton>🍊</OoButton>
 </template>
 ```

@@ -9,7 +9,7 @@
       "./shims-vue.d.ts",
   ],
   "exclude": [
-      "node_modules","packages"
+      "node_modules"
   ],
   "esModuleInterop": true,
   "allowSyntheticDefaultImports": "true"
