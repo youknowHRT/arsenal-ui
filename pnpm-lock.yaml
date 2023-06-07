@@ -4,11 +4,13 @@ importers:
 
   .:
     specifiers:
+      '@arsenal-ui/hooks': workspace:^1.0.0
       '@vitejs/plugin-vue': ^4.2.3
       '@vitejs/plugin-vue-jsx': ^3.0.1
       vite: ^4.3.9
       vue: ^3.3.4
     dependencies:
+      '@arsenal-ui/hooks': link:packages/hooks
       vue: 3.3.4
     devDependencies:
       '@vitejs/plugin-vue': 4.2.3_vite@4.3.9+vue@3.3.4
