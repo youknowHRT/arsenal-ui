@@ -1,0 +1,9 @@
+@use 'config';
+@forward 'config';
+
+@mixin b($block){
+  $B: $namespace + '-' + $block !global;
+  .#{$B}{
+    @content
+  }
+}

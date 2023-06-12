@@ -1,3 +1,5 @@
+import { withInstall } from "@arsenal-ui/utils";
 import Button from './src/Button.vue'
-const OoButton = Button
-export default OoButton
+
+export const OoButton = withInstall(Button);
+export default OoButton;
