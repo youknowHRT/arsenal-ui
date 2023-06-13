@@ -18,9 +18,9 @@ const _bem = (
 
 export const useNamespace = (block: string) =>{
   const namespace = computed(()=>defaultNamespace)
-  const b =(blockSuffix='')=>{
+  const b =(blockSuffix='')=>
     _bem(unref(namespace),block,blockSuffix,'','')
-  }
+  
   return {
     namespace,
     b

@@ -2,7 +2,7 @@
   <div class="sonOfApp">
     <oo-button>🏀</oo-button>
     <!-- <oo-jsx-button>🌹</oo-jsx-button> -->
-    <oo-icon color="blue">oo-icon</oo-icon>
+    <oo-icon color="blue" size="18px">oo-icon</oo-icon>
   </div>
 </template>
 
