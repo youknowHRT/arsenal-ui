@@ -4,6 +4,9 @@
       "declarationDir": "./dist/types", /* '.d.ts' 文件输出目录 */
       "jsx": "preserve",
       "lib": ["es2015", "DOM"],
+      "module": "es2022",
+      "types": ["vite/client"],
+      "moduleResolution": "node"
   },
   "include": [
       "./**/*.*",
