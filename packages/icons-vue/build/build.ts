@@ -8,7 +8,6 @@ import { emptyDir } from 'fs-extra'
 import { version } from '../package.json'
 import { pathOutput, pathSrc } from './paths'
 import type { BuildOptions, Format } from 'esbuild'
-console.log(version,'🍉🍉🍉')
 const buildBundle = () => {
   const getBuildOptions = (format: Format) => {
     const options: BuildOptions = {
@@ -28,7 +27,7 @@ const buildBundle = () => {
       format,
       minifySyntax: true,
       banner: {
-        js: `/*! Element Plus Icons Vue v${version} */\n`,
+        js: `/*! Arsenal Plus Icons Vue v${version} */\n`,
       },
       outdir: pathOutput,
     }
@@ -38,7 +37,7 @@ const buildBundle = () => {
           vue: 'Vue',
         })
       )
-      options.globalName = 'ElementPlusIconsVue'
+      options.globalName = 'ArsenalPlusIconsVue'
     } else {
       options.external = ['vue']
     }
