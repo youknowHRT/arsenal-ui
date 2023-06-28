@@ -2,18 +2,23 @@
   <div class="sonOfApp">
     <oo-button>🏀</oo-button>
     <!-- <oo-jsx-button>🌹</oo-jsx-button> -->
-    <oo-icon color="blue" size="18px">oo-icon</oo-icon>
-    <svg class="icon" aria-hidden="true">
+    <oo-icon color="blue" size="18px">
+      <!-- <oo-icon-male/> -->
+      <!-- <oo-icon-arrow-left/> -->
+      <!-- <ArrowLeft/> -->
+      <component v-for="icon in OoSvg" :is="icon"/>
+    </oo-icon>
+    <!-- <svg class="icon" aria-hidden="true">
       <use xlink:href="#icon-arrow-left"></use>
-    </svg>
-    <OoArrow/>
+    </svg> -->
+    
   </div>
 </template>
 
 <script setup lang="ts">
-import OoArrow from './components/IconArrow.vue'
+import * as OoSvg from '@arsenal-ui/icons-vue'
+import {ArrowLeft} from '@arsenal-ui/icons-vue'
 defineOptions({name:'App'})
-// const fs = require('fs')
 </script>
 
 <style lang="scss">

@@ -3,3 +3,4 @@ dist
 cache
 pnpm-lock.yaml
 .DS_Store
+packages/icons-vue/src/components

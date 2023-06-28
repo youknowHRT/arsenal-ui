@@ -13,6 +13,7 @@
   "dependencies": {
     "@arsenal-ui/components": "workspace:^1.0.0",
     "@arsenal-ui/hooks": "workspace:^1.0.0",
+    "@arsenal-ui/icons-vue": "workspace:^1.0.0",
     "@arsenal-ui/utils": "workspace:^1.0.0",
     "arsenal-plus": "workspace:^1.0.0",
     "sass": "^1.62.1",
