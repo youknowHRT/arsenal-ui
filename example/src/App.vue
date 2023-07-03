@@ -3,10 +3,7 @@
     <oo-button>🏀</oo-button>
     <!-- <oo-jsx-button>🌹</oo-jsx-button> -->
     <oo-icon color="blue" size="18px">
-      <!-- <oo-icon-male/> -->
-      <!-- <oo-icon-arrow-left/> -->
-      <!-- <ArrowLeft/> -->
-      <component v-for="icon in OoSvg" :is="icon"/>
+      <Male/>
     </oo-icon>
     <!-- <svg class="icon" aria-hidden="true">
       <use xlink:href="#icon-arrow-left"></use>
@@ -17,7 +14,7 @@
 
 <script setup lang="ts">
 import * as OoSvg from '@arsenal-ui/icons-vue'
-import {ArrowLeft} from '@arsenal-ui/icons-vue'
+import {ArrowLeft,Male} from '@arsenal-ui/icons-vue'
 defineOptions({name:'App'})
 </script>
 
@@ -27,11 +24,11 @@ defineOptions({name:'App'})
   .sonOfApp {
     height: 100%;
   }
-  .icon {
-      width: 1em; height: 1em;
-      vertical-align: -0.15em;
-      fill: currentColor;
-      overflow: hidden;
-  }
+  // .icon {
+  //     width: 1em; height: 1em;
+  //     vertical-align: -0.15em;
+  //     fill: currentColor;
+  //     overflow: hidden;
+  // }
 }
 </style>

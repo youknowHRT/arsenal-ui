@@ -9,6 +9,7 @@ import {iconProps} from './icon'
 import {computed} from 'vue'
 import {addUnit, isUndefined} from '@arsenal-ui/utils'
 import type { CSSProperties } from 'vue'
+import '@arsenal-ui/theme-chalk/src/index.scss'
 defineOptions({
   name:'OoIcon'
 })
@@ -25,5 +26,10 @@ const ns = useNamespace('icon')
    
 </script>
 <style scoped lang='scss'>
- 
+// .oo-icon{
+//   :deep(svg){
+//     height: 2em;
+//     width: 2em;
+//   }
+// }
 </style>
