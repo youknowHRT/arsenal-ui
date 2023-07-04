@@ -5,9 +5,6 @@
     <oo-icon color="blue" size="18px">
       <Male/>
     </oo-icon>
-    <!-- <svg class="icon" aria-hidden="true">
-      <use xlink:href="#icon-arrow-left"></use>
-    </svg> -->
     
   </div>
 </template>

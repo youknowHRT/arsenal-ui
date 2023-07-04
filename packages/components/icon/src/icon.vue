@@ -1,5 +1,5 @@
 <template>
- <i :class="ns.b()" :style="style">
+ <i :class="ns.b()" :style="style" v-bind="$attrs">
   <slot />
  </i>
 </template>
@@ -11,7 +11,8 @@ import {addUnit, isUndefined} from '@arsenal-ui/utils'
 import type { CSSProperties } from 'vue'
 import '@arsenal-ui/theme-chalk/src/index.scss'
 defineOptions({
-  name:'OoIcon'
+  name:'OoIcon',
+  inheritAttrs: false,
 })
 const props = defineProps(iconProps)
 const style = computed<CSSProperties>(()=>{
