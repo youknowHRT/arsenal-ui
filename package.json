@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@arsenal-ui/components": "workspace:^1.0.0",
+    "@arsenal-ui/directives": "workspace:^1.0.0",
     "@arsenal-ui/hooks": "workspace:^1.0.0",
     "@arsenal-ui/icons-vue": "workspace:^1.0.0",
     "@arsenal-ui/theme-chalk": "workspace:^1.0.0",

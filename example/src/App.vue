@@ -16,7 +16,8 @@
 <script setup lang="ts">
 import * as OoSvg from '@arsenal-ui/icons-vue'
 import {ArrowLeft,Male} from '@arsenal-ui/icons-vue'
-import vDrag from './directives/drag'
+// import vDrag from './directives/drag'
+import vDrag from '@arsenal-ui/directives/dragElement'
 defineOptions({name:'App'})
 const getMoreData = ()=>{
   console.log('xxxxx')
